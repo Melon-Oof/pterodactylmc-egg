@@ -42,7 +42,7 @@
             "env_variable": "VELOCITY_VERSION",
             "default_value": "latest",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|string|max:20",
             "field_type": "text"
         },
@@ -52,7 +52,7 @@
             "env_variable": "SERVER_JARFILE",
             "default_value": "velocity.jar",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|string|max:32|regex:\/^([\\w\\d._-]+)(\\.jar)$\/",
             "field_type": "text"
         },
